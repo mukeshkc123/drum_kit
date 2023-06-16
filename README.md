@@ -1,6 +1,6 @@
 # Mukesh's Drum 🥁 Kit
 
-![Drum Kit](drum-kit.png)
+![Drum Kit](./drum-kit.png)
 
 Welcome to Mukesh's Drum Kit project! This interactive website allows you to play the drums using either your mouse or keyboard. It's a fun and engaging way to explore your musical talent!
 
@@ -10,15 +10,14 @@ Mukesh's Drum 🥁 Kit is designed to be fully responsive, ensuring a seamless e
 
 ## How to Play
 
-1. Visit the live website: [Mukesh's Drum 🥁 Kit](https://example.com)
-2. You will see a set of drum pads displayed on the screen.
-3. To play the drums, you have two options:
+1. You will see a set of drum pads displayed on the screen.
+2. To play the drums, you have two options:
    - **Option 1: Mouse Interaction**
      - Click on any drum pad to trigger the corresponding sound.
    - **Option 2: Keyboard Interaction**
      - Press the keys on your computer keyboard that are labeled on the drum pads.
      - Each key corresponds to a specific drum sound.
-4. Enjoy creating your drum beats and rhythms by experimenting with different drum pad combinations!
+3. Enjoy creating your drum beats and rhythms by experimenting with different drum pad combinations!
 
 ## Technologies Used
 
