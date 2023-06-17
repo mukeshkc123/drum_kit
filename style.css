@@ -116,6 +116,15 @@ b {
   margin: 10px;
 }
 
+.pop-out {
+  transform: scale(1.5); /* Increase the size */
+  transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+ .pressed {
+  box-shadow: 8px 8px 4px 3px rgb(20, 16, 16);
+} 
+
 @media (max-width: 1200px) {
   .container {
     height: 100%;
