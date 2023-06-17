@@ -1,14 +1,24 @@
 //Detction of Screen press
 for (var i = 0; i < document.querySelectorAll(".drum").length; i++) {
+
   document.querySelectorAll(".drum")[i].addEventListener("click", function () {
     var screenButtonKey = this.innerHTML;
     makeSound(screenButtonKey);
+    buttonAnimation(screenButtonKey);
   });
 }
 
 //detection of the Keyboard strokes
 document.addEventListener("keydown", function (event) {
+
   makeSound(event.key);
+
+  if (/^[^a-z]$/.test(event.key)) {
+    buttonAnimation("x");
+  } else {
+    buttonAnimation(event.key);
+  }
+
 });
 
 // function to play sounds;
@@ -74,4 +84,17 @@ function makeSound(keyBoardKey) {
       kick.play();
       break;
   }
+}
+
+function buttonAnimation(buttonKey) {
+  
+  var btnKey = document.querySelector("." + buttonKey);
+
+  btnKey.classList.add("pressed");
+  btnKey.classList.add("pop-out");
+
+  setTimeout(function () {
+    btnKey.classList.remove("pressed");
+    btnKey.classList.remove("pop-out");
+  }, 100);
 }
