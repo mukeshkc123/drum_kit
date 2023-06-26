@@ -1,8 +1,8 @@
 # Mukesh's Drum 🥁 Kit
 
-![Drum Kit](./drum-kit.png)
-
 Welcome to Mukesh's Drum Kit project! This interactive website allows you to play the drums using either your mouse or keyboard. It's a fun and engaging way to explore your musical talent!
+
+Play the drumkit: https://mukeshkc123.github.io/drum_kit/
 
 ## Responsive Design
 
